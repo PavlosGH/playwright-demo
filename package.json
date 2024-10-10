@@ -1,0 +1,26 @@
+{
+  "name": "playwright-swag",
+  "version": "1.0.0",
+  "description": "A demo to implement automated tests by using Playwright.",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:processes": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "playwright": "^1.38.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavlosGH/playwright-swag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavlosGH/playwright-swag/issues"
+  },
+  "homepage": "https://github.com/PavlosGH/playwright-swag#readme"
+}
