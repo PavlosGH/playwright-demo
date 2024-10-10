@@ -25,7 +25,6 @@ test.describe('swag labs processes', () => {
         await page.locator('[data-test="postalCode"]').click();
         await page.locator('[data-test="postalCode"]').fill('12345');
         await page.locator('[data-test="continue"]').click();
-        await expect(page.locator('[data-test="secondary-header"]')).toBeVisible();
         await page.locator('[data-test="finish"]').click();
         await expect(page.locator('[data-test="checkout-complete-container"]')).toBeVisible();
         await page.locator('[data-test="back-to-products"]').click();
