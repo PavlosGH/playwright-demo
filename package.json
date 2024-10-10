@@ -10,7 +10,7 @@
     "test:processes": "npx playwright test --headed"
   },
   "devDependencies": {
-    "playwright": "^1.38.1"
+    "@playwright/test": "^1.48.0"
   },
   "repository": {
     "type": "git",
