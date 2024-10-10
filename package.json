@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test:processes": "npx playwright test --headed"
+    "test:processes": "npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0"
